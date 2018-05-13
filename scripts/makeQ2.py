@@ -11,12 +11,11 @@ jsOldPost.close()
 jsNewPost = open('./jsNewPost.text', 'w')
 jsOldPost = open('./jsPost.text', 'r')
 for i in range(count):
-    jsNewPost.write(jsOldPost.readline())
-    print(jsOldPost.readline()=="if(q1== '1'){correct++};")
-    if jsOldPost.readline() == '<script>function check(){var answer = document.getElementById("answer");\n':
+    strline = jsOldPost.readline()
+    if 'function check' in strline:
         jsOldPost.close()
         break
-
+    jsNewPost.write(strline)
 
 loopNum = int(raw_input("How much questions you want to write?: "))
 string = ''

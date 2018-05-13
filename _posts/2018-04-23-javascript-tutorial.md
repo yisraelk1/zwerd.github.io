@@ -77,7 +77,17 @@ On this quiz you will find question that I found on the web and more question th
 
 
 
-<script>function check(){var answer = document.getElementById("answer");
+<p class = "questions">5.check please?</p>
+<input type="radio" id="mc" name="q5" value="1">1<br>
+<input type="radio" id="mc" name="q5" value="0">0<br>
+<input type="radio" id="mc" name="q5" value="0">0<br>
+<input type="radio" id="mc" name="q5" value="0">0<br>
+
+
+
+
+<script>
+function check(){var answer = document.getElementById("answer");
 var correct = 0
 var q1= document.quiz.q1.value;
 if(q1== '1'){correct++};
@@ -87,9 +97,11 @@ var q3= document.quiz.q3.value;
 if(q3== '1'){correct++};
 var q4= document.quiz.q4.value;
 if(q4== '1'){correct++};
-answer.innerHTML='Your scor is: '+correct*100/4};
-</script><br>
+var q5= document.quiz.q5.value;
+if(q5== '1'){correct++};
+answer.innerHTML='Your scor is: '+correct*100/5;
 
+</script>
 
 
 
