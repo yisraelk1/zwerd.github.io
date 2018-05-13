@@ -1,5 +1,6 @@
 from shutil import copyfile
 import shutil
+import os
 
 shutil.copy('../_posts/2018-04-23-javascript-tutorial.md', './jsPost.text')
 jsOldPost = open('./jsPost.text','r')
@@ -49,6 +50,8 @@ string += '</form>\n'
 jsNewPost.write(string)
 jsNewPost.close()
 shutil.copy('./jsNewPost.text', '../_posts/2018-04-23-javascript-tutorial.md')
+os.remove("./jsNewPost.text")
+os.remove("./jsPost.text")
 
 
 
