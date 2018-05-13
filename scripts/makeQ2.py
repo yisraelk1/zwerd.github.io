@@ -1,14 +1,14 @@
 from shutil import copyfile
 import shutil
 
-shutil.copy('../_posts/2018-04-23-javascript-tutorial.md', './jsPost.md')
-jsOldPost = open('./jsPost.md','r')
+shutil.copy('../_posts/2018-04-23-javascript-tutorial.md', './jsPost.text')
+jsOldPost = open('./jsPost.text','r')
 count = len(jsOldPost.readlines())
 jsOldPost.close()
 
 
-jsNewPost = open('./jsNewPost.md', 'w')
-jsOldPost = open('./jsPost.md', 'r')
+jsNewPost = open('./jsNewPost.text', 'w')
+jsOldPost = open('./jsPost.text', 'r')
 for i in range(count):
     jsNewPost.write(jsOldPost.readline())
     if i == count-6:
@@ -48,7 +48,7 @@ string += '</form>\n'
 
 jsNewPost.write(string)
 jsNewPost.close()
-shutil.copy('./jsNewPost.md', '../_posts/2018-04-23-javascript-tutorial.md')
+shutil.copy('./jsNewPost.text', '../_posts/2018-04-23-javascript-tutorial.md')
 
 
 
