@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-13T15:38:48+03:00</updated><id>http://localhost:4000/</id><title type="html">Zwerd</title><subtitle>A stunning blog of freaking PT warrior</subtitle><author><name>Guy Zwerdling</name></author><entry><title type="html">JavaScript - the future of programming.</title><link href="http://localhost:4000/2018/04/23/javascript-tutorial.html" rel="alternate" type="text/html" title="JavaScript - the future of programming." /><published>2018-04-23T00:00:00+03:00</published><updated>2018-04-23T00:00:00+03:00</updated><id>http://localhost:4000/2018/04/23/javascript-tutorial</id><content type="html" xml:base="http://localhost:4000/2018/04/23/javascript-tutorial.html">&lt;p&gt;It’s been awhile, after I done with my SQLi project I start to learn XSS, I found it fascinating! but I felt like I need more strong base knowledge about JavaScript to do my magic stuff. after a week or two I decided to make my on tutorials video about JS and this time in Hebrew, from that project I was learn a lot!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-13T17:44:02+03:00</updated><id>http://localhost:4000/</id><title type="html">Zwerd</title><subtitle>A stunning blog of freaking PT warrior</subtitle><author><name>Guy Zwerdling</name></author><entry><title type="html">JavaScript - the future of programming.</title><link href="http://localhost:4000/2018/04/23/javascript-tutorial.html" rel="alternate" type="text/html" title="JavaScript - the future of programming." /><published>2018-04-23T00:00:00+03:00</published><updated>2018-04-23T00:00:00+03:00</updated><id>http://localhost:4000/2018/04/23/javascript-tutorial</id><content type="html" xml:base="http://localhost:4000/2018/04/23/javascript-tutorial.html">&lt;p&gt;It’s been awhile, after I done with my SQLi project I start to learn XSS, I found it fascinating! but I felt like I need more strong base knowledge about JavaScript to do my magic stuff. after a week or two I decided to make my on tutorials video about JS and this time in Hebrew, from that project I was learn a lot!&lt;/p&gt;
 
 &lt;p&gt;Originally I wrote that tutorial for Michael which is a friend but unfortunately he give up on JS studies for some unknown reason.&lt;/p&gt;
 
@@ -27,6 +27,7 @@
 &lt;p&gt;On this quiz you will find question that I found on the web and more question that I made, if you have some issue with some question please feel free to contact me.&lt;/p&gt;
 
 &lt;h3 id=&quot;javascript---quiz&quot;&gt;JavaScript - quiz:&lt;/h3&gt;
+&lt;!--do not cheat!!! and don't look at the source code!!!!--&gt;
 
 &lt;form id=&quot;quiz&quot; name=&quot;quiz&quot;&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;/scripts/quiz.css&quot; /&gt;
@@ -47,7 +48,7 @@
   &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q2&quot; value=&quot;1&quot; /&gt;document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;&lt;br /&gt;&lt;br /&gt;
 
 
-&lt;p class=&quot;questions&quot;&gt;3.What is boolean?&lt;/p&gt;
+&lt;p class=&quot;questions&quot;&gt;3. What is boolean?&lt;/p&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q3&quot; value=&quot;0&quot; /&gt;It is some positive value&lt;br /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q3&quot; value=&quot;1&quot; /&gt;It is some value base on True or False&lt;br /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q3&quot; value=&quot;0&quot; /&gt;t's a binary value that can be 0 or 1&lt;br /&gt;
@@ -57,7 +58,7 @@
 
 
 
-&lt;p class=&quot;questions&quot;&gt;4.Where is the correct place to insert a JavaScript?&lt;/p&gt;
+&lt;p class=&quot;questions&quot;&gt;4. Where is the correct place to insert a JavaScript?&lt;/p&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q4&quot; value=&quot;0&quot; /&gt;The &amp;lt;head&amp;gt; section&lt;br /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q4&quot; value=&quot;0&quot; /&gt;The &amp;lt;body&amp;gt; section&lt;br /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q4&quot; value=&quot;1&quot; /&gt;Both the &amp;lt;head&amp;gt; section and the &amp;lt;body&amp;gt; section are correct&lt;br /&gt;
@@ -66,11 +67,80 @@
 
 
 
-&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;5.What is the correct syntax for referring to an external script called &quot;xxx.js&quot;?&lt;/p&gt;
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;5. What is the correct syntax for referring to an external script called &quot;xxx.js&quot;?&lt;/p&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q5&quot; value=&quot;0&quot; /&gt;&amp;lt;script name=&quot;xxx.js&quot;&amp;gt;&lt;br /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q5&quot; value=&quot;1&quot; /&gt;&amp;lt;script src=&quot;xxx.js&quot;&amp;gt;&lt;br /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q5&quot; value=&quot;0&quot; /&gt;&amp;lt;script href=&quot;xxx.js&quot;&amp;gt;&lt;br /&gt;
 &lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q5&quot; value=&quot;0&quot; /&gt;&amp;lt;script link=&quot;xxx.js&quot;&amp;gt;&lt;br /&gt;
+
+
+
+
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;6. The external JavaScript file must contain the &amp;lt;script&amp;gt; tag.&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q6&quot; value=&quot;1&quot; /&gt;True&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q6&quot; value=&quot;0&quot; /&gt;False&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q6&quot; value=&quot;0&quot; /&gt;The tage can be what you whant&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q6&quot; value=&quot;0&quot; /&gt;The tag must be with src element&lt;br /&gt;
+
+
+
+
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;7. How do you write &quot;Hello World&quot; in an alert box?&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q7&quot; value=&quot;0&quot; /&gt;msgBox(&quot;Hello World&quot;);&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q7&quot; value=&quot;1&quot; /&gt;alert(&quot;Hello World&quot;);&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q7&quot; value=&quot;0&quot; /&gt;msg(&quot;Hello World&quot;);&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q7&quot; value=&quot;0&quot; /&gt;alertBox(&quot;Hello World&quot;);&lt;br /&gt;
+
+
+
+
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;8. How do you call a function named &quot;myFunction&quot;?&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q8&quot; value=&quot;1&quot; /&gt;myFunction()&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q8&quot; value=&quot;0&quot; /&gt;myFunction&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q8&quot; value=&quot;0&quot; /&gt;call function myFunction()&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q8&quot; value=&quot;0&quot; /&gt;call myFunction()&lt;br /&gt;
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;10.How to write an IF statement in JavaScript?&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q9&quot; value=&quot;0&quot; /&gt;if i = 5 then&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q9&quot; value=&quot;0&quot; /&gt;if i == 5 then&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q9&quot; value=&quot;1&quot; /&gt;if (i == 5)&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q9&quot; value=&quot;0&quot; /&gt;if i = 5&lt;br /&gt;
+
+
+
+
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;10. How to write an IF statement for executing some code if &quot;i&quot; is NOT equal to 5?&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q10&quot; value=&quot;0&quot; /&gt;if i =! 5 then&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q10&quot; value=&quot;0&quot; /&gt;if i &amp;lt;&amp;gt; 5&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q10&quot; value=&quot;1&quot; /&gt;if (i!=5)&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q10&quot; value=&quot;0&quot; /&gt;if(i&amp;lt;&amp;gt;5)&lt;br /&gt;
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;11. How does a WHILE loop start?&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q11&quot; value=&quot;1&quot; /&gt;while (i &amp;lt;= 10)&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q11&quot; value=&quot;0&quot; /&gt;while (i &amp;lt;= 10) than&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q11&quot; value=&quot;0&quot; /&gt;while i = 1 to 10&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q11&quot; value=&quot;0&quot; /&gt;while (i &amp;lt;= 10; i++)&lt;br /&gt;
+
+
+
+
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;12. How does a FOR loop start?&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q12&quot; value=&quot;1&quot; /&gt;for (i = 0; i &amp;lt;= 5; i++)&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q12&quot; value=&quot;0&quot; /&gt;for (i = 0; i &amp;lt;= 5)&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q12&quot; value=&quot;0&quot; /&gt;for (i &amp;lt;= 5; i++)&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q12&quot; value=&quot;0&quot; /&gt;for i = 1 to 5&lt;br /&gt;
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;13. How can you add a comment in a JavaScript?&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q13&quot; value=&quot;0&quot; /&gt;&amp;lt;!--This is a comment--&amp;gt;&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q13&quot; value=&quot;1&quot; /&gt;//This is a comment&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q13&quot; value=&quot;0&quot; /&gt;'This is a comment&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q13&quot; value=&quot;0&quot; /&gt;#This is a comment&lt;br /&gt;
+
+
+
+
+&lt;br /&gt;&lt;p class=&quot;questions&quot;&gt;14. How to insert a comment that has more than one line?&lt;/p&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q14&quot; value=&quot;0&quot; /&gt;&amp;lt;!--this comment has &amp;lt;br&amp;gt; more then one line--&amp;gt;&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q14&quot; value=&quot;0&quot; /&gt;//This comment has &amp;lt;br&amp;gt; more then one line//&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q14&quot; value=&quot;0&quot; /&gt;//This comment has &amp;lt;br&amp;gt; more than one line*/&lt;br /&gt;
+&lt;input type=&quot;radio&quot; id=&quot;mc&quot; name=&quot;q14&quot; value=&quot;1&quot; /&gt;/*This comment has &amp;lt;br&amp;gt; more than one line*/&lt;br /&gt;
 
 
 
@@ -87,7 +157,25 @@ var q4= document.quiz.q4.value;
 if(q4== '1'){correct++};
 var q5= document.quiz.q5.value;
 if(q5== '1'){correct++};
-answer.innerHTML='Your scor is: '+correct*100/5;
+var q6= document.quiz.q6.value;
+if(q6== '1'){correct++};
+var q7= document.quiz.q7.value;
+if(q7== '1'){correct++};
+var q8= document.quiz.q8.value;
+if(q8== '1'){correct++};
+var q9= document.quiz.q9.value;
+if(q9== '1'){correct++};
+var q10= document.quiz.q10.value;
+if(q10== '1'){correct++};
+var q11= document.quiz.q11.value;
+if(q11== '1'){correct++};
+var q12= document.quiz.q12.value;
+if(q12== '1'){correct++};
+var q13= document.quiz.q13.value;
+if(q13== '1'){correct++};
+var q14= document.quiz.q14.value;
+if(q14== '1'){correct++};
+answer.innerHTML='Your scor is: '+correct*100/14;
 }
 &lt;/script&gt;
 

@@ -38,6 +38,7 @@ So like I said that tutorial is build in such a way to help me to pass the exam,
 On this quiz you will find question that I found on the web and more question that I made, if you have some issue with some question please feel free to contact me.
 
 ### JavaScript - quiz:
+<!--do not cheat!!! and don't look at the source code!!!!-->
 
 <form id="quiz" name="quiz">
 <link rel="stylesheet" href="/scripts/quiz.css" />
@@ -58,7 +59,7 @@ On this quiz you will find question that I found on the web and more question th
   <input type="radio" id="mc" name="q2" value="1" />document.getElementById("demo").innerHTML = "Hello World!";<br /><br />
 
 
-<p class = "questions">3.What is boolean?</p>
+<p class = "questions">3. What is boolean?</p>
 <input type="radio" id="mc" name="q3" value="0">It is some positive value<br>
 <input type="radio" id="mc" name="q3" value="1">It is some value base on True or False<br>
 <input type="radio" id="mc" name="q3" value="0">t's a binary value that can be 0 or 1<br>
@@ -68,7 +69,7 @@ On this quiz you will find question that I found on the web and more question th
 
 
 
-<p class = "questions">4.Where is the correct place to insert a JavaScript?</p>
+<p class = "questions">4. Where is the correct place to insert a JavaScript?</p>
 <input type="radio" id="mc" name="q4" value="0">The &lt;head&gt; section<br>
 <input type="radio" id="mc" name="q4" value="0">The &lt;body&gt; section<br>
 <input type="radio" id="mc" name="q4" value="1">Both the &lt;head&gt; section and the &lt;body&gt; section are correct<br>
@@ -77,11 +78,80 @@ On this quiz you will find question that I found on the web and more question th
 
 
 
-<br><p class = "questions">5.What is the correct syntax for referring to an external script called "xxx.js"?</p>
+<br><p class = "questions">5. What is the correct syntax for referring to an external script called "xxx.js"?</p>
 <input type="radio" id="mc" name="q5" value="0">&lt;script name="xxx.js"&gt;<br>
 <input type="radio" id="mc" name="q5" value="1">&lt;script src="xxx.js"&gt;<br>
 <input type="radio" id="mc" name="q5" value="0">&lt;script href="xxx.js"&gt;<br>
 <input type="radio" id="mc" name="q5" value="0">&lt;script link="xxx.js"&gt;<br>
+
+
+
+
+<br><p class = "questions">6. The external JavaScript file must contain the &lt;script&gt; tag.</p>
+<input type="radio" id="mc" name="q6" value="1">True<br>
+<input type="radio" id="mc" name="q6" value="0">False<br>
+<input type="radio" id="mc" name="q6" value="0">The tage can be what you whant<br>
+<input type="radio" id="mc" name="q6" value="0">The tag must be with src element<br>
+
+
+
+
+<br><p class = "questions">7. How do you write "Hello World" in an alert box?</p>
+<input type="radio" id="mc" name="q7" value="0">msgBox("Hello World");<br>
+<input type="radio" id="mc" name="q7" value="1">alert("Hello World");<br>
+<input type="radio" id="mc" name="q7" value="0">msg("Hello World");<br>
+<input type="radio" id="mc" name="q7" value="0">alertBox("Hello World");<br>
+
+
+
+
+<br><p class = "questions">8. How do you call a function named "myFunction"?</p>
+<input type="radio" id="mc" name="q8" value="1">myFunction()<br>
+<input type="radio" id="mc" name="q8" value="0">myFunction<br>
+<input type="radio" id="mc" name="q8" value="0">call function myFunction()<br>
+<input type="radio" id="mc" name="q8" value="0">call myFunction()<br>
+<br><p class = "questions">10.How to write an IF statement in JavaScript?</p>
+<input type="radio" id="mc" name="q9" value="0">if i = 5 then<br>
+<input type="radio" id="mc" name="q9" value="0">if i == 5 then<br>
+<input type="radio" id="mc" name="q9" value="1">if (i == 5)<br>
+<input type="radio" id="mc" name="q9" value="0">if i = 5<br>
+
+
+
+
+<br><p class = "questions">10. How to write an IF statement for executing some code if "i" is NOT equal to 5?</p>
+<input type="radio" id="mc" name="q10" value="0">if i =! 5 then<br>
+<input type="radio" id="mc" name="q10" value="0">if i &lt;&gt; 5<br>
+<input type="radio" id="mc" name="q10" value="1">if (i!=5)<br>
+<input type="radio" id="mc" name="q10" value="0">if(i&lt;&gt;5)<br>
+<br><p class = "questions">11. How does a WHILE loop start?</p>
+<input type="radio" id="mc" name="q11" value="1">while (i &lt;= 10)<br>
+<input type="radio" id="mc" name="q11" value="0">while (i &lt;= 10) than<br>
+<input type="radio" id="mc" name="q11" value="0">while i = 1 to 10<br>
+<input type="radio" id="mc" name="q11" value="0">while (i &lt;= 10; i++)<br>
+
+
+
+
+<br><p class = "questions">12. How does a FOR loop start?</p>
+<input type="radio" id="mc" name="q12" value="1">for (i = 0; i &lt;= 5; i++)<br>
+<input type="radio" id="mc" name="q12" value="0">for (i = 0; i &lt;= 5)<br>
+<input type="radio" id="mc" name="q12" value="0">for (i &lt;= 5; i++)<br>
+<input type="radio" id="mc" name="q12" value="0">for i = 1 to 5<br>
+<br><p class = "questions">13. How can you add a comment in a JavaScript?</p>
+<input type="radio" id="mc" name="q13" value="0">&lt;!--This is a comment--&gt;<br>
+<input type="radio" id="mc" name="q13" value="1">//This is a comment<br>
+<input type="radio" id="mc" name="q13" value="0">'This is a comment<br>
+<input type="radio" id="mc" name="q13" value="0">#This is a comment<br>
+
+
+
+
+<br><p class = "questions">14. How to insert a comment that has more than one line?</p>
+<input type="radio" id="mc" name="q14" value="0">&lt;!--this comment has &lt;br&gt; more then one line--&gt;<br>
+<input type="radio" id="mc" name="q14" value="0">//This comment has &lt;br&gt; more then one line//<br>
+<input type="radio" id="mc" name="q14" value="0">//This comment has &lt;br&gt; more than one line*/<br>
+<input type="radio" id="mc" name="q14" value="1">/*This comment has &lt;br&gt; more than one line*/<br>
 
 
 
@@ -98,7 +168,25 @@ var q4= document.quiz.q4.value;
 if(q4== '1'){correct++};
 var q5= document.quiz.q5.value;
 if(q5== '1'){correct++};
-answer.innerHTML='Your scor is: '+correct*100/5;
+var q6= document.quiz.q6.value;
+if(q6== '1'){correct++};
+var q7= document.quiz.q7.value;
+if(q7== '1'){correct++};
+var q8= document.quiz.q8.value;
+if(q8== '1'){correct++};
+var q9= document.quiz.q9.value;
+if(q9== '1'){correct++};
+var q10= document.quiz.q10.value;
+if(q10== '1'){correct++};
+var q11= document.quiz.q11.value;
+if(q11== '1'){correct++};
+var q12= document.quiz.q12.value;
+if(q12== '1'){correct++};
+var q13= document.quiz.q13.value;
+if(q13== '1'){correct++};
+var q14= document.quiz.q14.value;
+if(q14== '1'){correct++};
+answer.innerHTML='Your scor is: '+correct*100/14;
 }
 </script>
 
