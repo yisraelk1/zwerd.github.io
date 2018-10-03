@@ -14,10 +14,21 @@ ul {
   list-style-type: none;
 
 }
+.delete {
+  padding: 10px 20px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  font-size: 120%;
+}
 li {
+  padding: 10px 20px;
   margin-bottom: 5px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
   /*background-color: red;*/
 }
+
 
 .center {
   align-self: center;
