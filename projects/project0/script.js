@@ -26,7 +26,7 @@ function newTodo() {
   itemCountSpan.innerHTML = todoList.length
   uncheckedCountSpan.innerHTML = todoUncheck.length
   list.innerHTML += newelement
-  document.getElementById(todoTask).style.backgroundColor = 'lightcoral'
+  document.getElementById(todoTask).style.backgroundColor = 'silver '
 }
 
 function remove(element){
@@ -41,13 +41,13 @@ function remove(element){
 
 function changeColor(element){
   console.log(element.style.backgroundColor)
-  if(element.style.backgroundColor == 'lightcoral'){
+  if(element.style.backgroundColor == 'silver'){
     element.style.backgroundColor = 'lightgreen'
     console.log(todoUncheck.indexOf(element.id))
     removeA(todoUncheck, element.id)
     uncheckedCountSpan.innerHTML = todoUncheck.length
   }else{
-    element.style.backgroundColor = 'lightcoral'
+    element.style.backgroundColor = 'silver'
     todoUncheck.push(element.id)
     uncheckedCountSpan.innerHTML = todoUncheck.length
   }
@@ -66,7 +66,7 @@ function removeA(arr) {
 
 function callPrompt(){
   task = prompt("Please enter your task in TODO list: ");
-  if(task == ''){
+  if(task == '' || task == null){
     alert("Not valide task!")
     callPrompt()
   }
